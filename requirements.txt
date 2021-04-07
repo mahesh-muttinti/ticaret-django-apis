@@ -28,3 +28,5 @@ mysql-connector-python==8.0.23
 djangorestframework==3.12.4
 cryptography==3.4.7
 jinja2==2.11.3
+psycopg2_binary==2.8.6
+ordereddict==1.1
