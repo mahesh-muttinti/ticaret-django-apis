@@ -20,3 +20,9 @@ s3transfer==0.2.0
 six==1.12.0
 urllib3==1.23
 whitenoise==4.1.2
+mysql==0.0.2
+mysqlclient==2.0.3
+mysql-connector==2.2.9
+knox==0.1.11
+mysql-connector-python==8.0.23
+djangorestframework==3.12.4
