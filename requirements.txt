@@ -26,3 +26,4 @@ mysql-connector==2.2.9
 knox==0.1.11
 mysql-connector-python==8.0.23
 djangorestframework==3.12.4
+cryptography==3.4.7
