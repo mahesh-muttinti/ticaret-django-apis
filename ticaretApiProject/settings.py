@@ -94,18 +94,19 @@ WSGI_APPLICATION = 'ticaretApiProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'register_db',
-        'USER': 'root',
-        'PASSWORD': '1234',
-        'HOST': '127.0.0.1',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd94i0v7ubal7ni',
+        'HOST': 'ec2-54-224-120-186.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'shaobwgrtexwlh',
+        'PASSWORD': 'b733702c6ffdc4a0013b4417d89441e028bc1b65208561fdd82828e2bb62037d'
 #         'OPTIONS': {
 #             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
 #         }
     }
 }
 
+# postgres://shaobwgrtexwlh:b733702c6ffdc4a0013b4417d89441e028bc1b65208561fdd82828e2bb62037d@ec2-54-224-120-186.compute-1.amazonaws.com:5432/d94i0v7ubal7ni
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
